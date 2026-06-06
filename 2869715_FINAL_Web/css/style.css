@@ -781,11 +781,8 @@ h3{
 }
 
 .cv-section {
-
     padding: 2rem;
-
     text-align: center;
-
     background: #f5f5f5;
     border: var(--primary) 4px solid;
 
@@ -851,8 +848,17 @@ footer{
         grid-template-columns:1fr;
     }
 
+    .hero-tag{
+        padding:0.3rem 0.8rem;
+        font-size:0.85rem;
+    }
+
     .hero h1{
-        font-size:2rem;
+        font-size:1.5rem;
+    }
+
+    .hero-description{
+        font-size:0.95rem;
     }
 
     .hero-buttons{
@@ -896,8 +902,11 @@ footer{
         grid-template-columns: 1fr;
     }
 
+    .contact-details {
+        border-left: var(--primary) 4px solid;
+    }
+
     .contact-form-wrapper {
-        border-right: none;
         border-bottom: 1px solid #ddd;
     }
 }
