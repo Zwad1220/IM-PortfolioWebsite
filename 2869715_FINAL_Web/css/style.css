@@ -74,6 +74,11 @@ h3{
     transform:translateY(0);
 }
 
+nav{
+    position:relative;
+    z-index:1000;
+}
+
 .main-nav{
     background:white;
     border-bottom:1px solid #ddd;
@@ -180,7 +185,7 @@ h3{
 
 .btn-primary{
     background:var(--primary);
-    color:white;
+    color:var(--bg);
     padding:0.9rem 1.5rem;
     text-decoration:none;
     border-radius:8px;
@@ -515,15 +520,10 @@ h3{
 }
 
 .filter-btn{
-
     padding:.8rem 1.4rem;
-
     border:none;
-
     border-radius:10px;
-
     cursor:pointer;
-
     transition:.3s;
 }
 
@@ -538,7 +538,6 @@ h3{
 
 .projects-grid{
     display:grid;
-
     grid-template-columns:
         repeat(auto-fit,minmax(320px,1fr));
 
@@ -827,17 +826,50 @@ footer{
 
     .hamburger{
         display:block;
+        cursor:pointer;
+        border:none;
+        border-radius:8px;
+        padding:0.5rem;
     }
 
     .nav-links{
         display:none;
         flex-direction:column;
         position:absolute;
+        border:1px solid #ddd;
+        border-radius:0 0 12px 12px;
         top:70px;
         left:0;
         width:100%;
         background:white;
         padding:1rem;
+        text-align:center;
+    }
+
+    .hero{
+        min-height:auto;
+        padding:4rem 0;
+    }
+
+    .hero-layout{
+        flex-direction:column;
+        text-align:center;
+        gap:2rem;
+    }
+
+    .hero-image{
+        display:flex;
+        justify-content:center;
+    }
+
+    .hero-image img{
+        max-width:250px;
+        width:100%;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
     }
 
     .nav-links.show{
@@ -846,6 +878,14 @@ footer{
 
     .project-grid{
         grid-template-columns:1fr;
+    }
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    .featured-projects{
+        text-align: center;
     }
 
     .hero-tag{
@@ -859,10 +899,6 @@ footer{
 
     .hero-description{
         font-size:0.95rem;
-    }
-
-    .hero-buttons{
-        flex-direction:column;
     }
 
     .about-layout{
@@ -892,6 +928,10 @@ footer{
 
     .timeline-item::after{
         left:10px !important;
+    }
+
+    .modal-image{
+        max-height:200px;
     }
 
     .intro-layout {
