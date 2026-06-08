@@ -3,15 +3,19 @@
 
 <head>
 
+    <!-- Character encoding and responsive viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
+    <!-- Browser tab title -->
     <title>Contact | Ziyad Khan</title>
 
+    <!-- Main stylesheet -->
     <link rel="stylesheet"
           href="css/style.css">
 
+    <!-- JavaScript files -->
     <script src="js/nav.js" defer></script>
     <script src="js/typing.js" defer></script>
     <script src="js/scroll-reveal.js" defer></script>
@@ -21,14 +25,17 @@
 
 <body>
 
+    <!-- Navigation injected dynamically using JavaScript -->
     <div id="navbar"></div>
 
     <main>
 
+        <!-- Hero section introducing the contact page -->
         <section class="contact-hero">
 
             <div class="container">
 
+                <!-- Animated heading using typing effect -->
                 <h1 class="typing-heading"
                     data-text="Get In Touch" id="contact-heading">
                 </h1>
@@ -43,48 +50,59 @@
 
         </section>
 
+        <!-- Main contact section containing the contact form and contact details -->
         <section class="contact-section reveal-up">
 
             <div class="container">
 
+                <!-- Section heading -->
                 <div>
 
                     <h2 class="contact-header">Let's Work Together</h2>
 
                 </div>
 
+                <!-- Two-column layout for form and contact information -->
                 <div class="contact-grid">
 
+                    <!-- Contact form with JavaScript validation -->
                     <div class="contact-form-wrapper">
 
                         <h3>Contact Form</h3>
 
                         <form id="contact-form">
 
+                            <!-- Name input -->
                             <input
                                 type="text"
                                 id="name"
                                 placeholder="Name">
 
+                            <!-- Name validation message -->
                             <small id="name-error"
                                    class="error"></small>
 
+                            <!-- Email input -->
                             <input
                                 type="email"
                                 id="email"
                                 placeholder="Email">
 
+                            <!-- Email validation message -->
                             <small id="email-error"
                                    class="error"></small>
 
+                            <!-- Message input -->
                             <textarea
                                 id="message"
                                 rows="6"
                                 placeholder="Message"></textarea>
 
+                            <!-- Message validation message -->
                             <small id="message-error"
                                    class="error"></small>
 
+                            <!-- Form submission button -->
                             <button type="submit"
                                     class="submit-btn">
 
@@ -96,26 +114,34 @@
 
                     </div>
 
+                    <!-- Alternative contact methods -->
                     <div class="contact-details">
 
                         <h3>Contact Details</h3>
 
+                        <!-- Email contact -->
                         <a href="mailto:khanziyad065@gmail.com"
-                           class="contact-box reveal-up">
+                        class="contact-box reveal-up">
 
                             Email: khanziyad065@gmail.com
 
                         </a>
 
+                        <!-- Instagram profile -->
                         <a href="https://www.instagram.com/ziyad_khan_05/"
-                           class="contact-box reveal-up">
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-box reveal-up">
 
                             Instagram: ziyad_khan_05
 
                         </a>
 
+                        <!-- GitHub profile -->
                         <a href="https://github.com/Zwad1220/"
-                           class="contact-box reveal-up">
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-box reveal-up">
 
                             GitHub: Zwad1220
 
@@ -125,6 +151,7 @@
 
                 </div>
 
+                <!-- Downloadable CV section -->
                 <div class="cv-section">
 
                     <a href="assets/files/SampleCV.pdf"
@@ -142,6 +169,19 @@
         </section>
 
     </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Ziyad Khan
+            </p>
+
+        </div>
+
+    </footer>
 
 </body>
 

@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- JavaScript files -->
 <script src="js/timeline.js" defer></script>
 <script src="js/typing.js" defer></script>
 <script src="js/scroll-reveal.js" defer></script>
 
 <head>
+
+    <!-- Character encoding and responsive viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Browser tab title -->
     <title>About | Ziyad Khan</title>
 
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<!-- Navigation injected dynamically through JavaScript -->
 <header id="navbar"></header>
 
 <main>
 
+    <!-- About hero section introducing the portfolio owner -->
     <section class="about-hero">
 
         <div class="container about-layout">
 
+            <!-- Profile image -->
             <div class="about-image">
                 <img src="assets/images/profile.png" alt="Ziyad Khan">
             </div>
 
+            <!-- Main introduction content -->
             <div class="about-content reveal-up">
 
                 <h1 class="reveal-up">About Me</h1>
@@ -54,102 +67,160 @@
         </div>
 
     </section>
+
+    <!-- Interactive timeline displaying academic and professional journey -->
     <section class="timeline-section">
 
-    <div class="container">
+        <div class="container">
 
-        <h2 class="timeline-heading reveal-up">
-            <span class="typing-heading"
-                data-text="My Journey">
-            </span>
-        </h2>
+            <!-- Animated timeline heading -->
+            <h2 class="timeline-heading reveal-up">
+                <span class="typing-heading"
+                    data-text="My Journey">
+                </span>
+            </h2>
 
-        <div class="timeline">
+            <div class="timeline">
 
-            <div class="timeline-item left hidden">
+                <!-- High school graduation milestone -->
+                <div class="timeline-item left hidden">
 
-                <div class="timeline-content">
+                    <div class="timeline-content">
 
-                    <h3>National Senior Certificate </h3>
+                        <h3>National Senior Certificate</h3>
 
-                    <span>2023</span>
+                        <span>2023</span>
 
-                    <p>
-                        Graduated from St Stithians Boys College with numourous distinctions to 
-                        set myself up with strong oppurtunities and various options for my further studies.
-                    </p>
+                        <p>
+                            Graduated from St Stithians Boys College with numourous distinctions to 
+                            set myself up with strong oppurtunities and various options for my further studies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- University studies milestone -->
+                <div class="timeline-item right hidden">
+
+                    <div class="timeline-content">
+
+                        <h3>Engineering In Digital Arts</h3>
+
+                        <span>2024</span>
+
+                        <p>
+                            Began my studies in Bachelor of Engineering Sciences in Digital Arts 
+                            at the University of Witwatersrand which built the foundation for my focus on software
+                            development, game design and interactive experiences.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Project development milestone -->
+                <div class="timeline-item left hidden">
+
+                    <div class="timeline-content">
+
+                        <h3>Development Projects</h3>
+
+                        <span>2025</span>
+
+                        <p>
+                            Created my first projects in unity including a 2D pixel-art cat game
+                            and a Sci-Fi 3D game featuring telekinetic combat, enemy AI and 
+                            progression systems while enhancing my problem-solving 
+                            skills with electronics projects and mathematics studies.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Portfolio development milestone -->
+                <div class="timeline-item right hidden">
+
+                    <div class="timeline-content">
+
+                        <h3>Portfolio Development</h3>
+
+                        <span>2026 / Present</span>
+
+                        <p>
+                            Began building a professional portfolio becoming emcompassed 
+                            with frontend and UI development skills, showcasing 
+                            development and design work.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Future goals milestone -->
+                <div class="timeline-item left hidden">
+
+                    <div class="timeline-content">
+
+                        <h3>Future Plans</h3>
+
+                        <span>2027 Onwards</span>
+
+                        <p>
+                            Hoping to continue building my skills and experience in software development and problem solving 
+                            by moving into the information engineering degree upon completion of my current degree and eventually 
+                            pursuing a career in software development, game design or interactive experience development.
+                        </p>
+
+                    </div>
 
                 </div>
 
             </div>
 
-            <div class="timeline-item right hidden">
+        </div>
 
-                <div class="timeline-content">
+    </section>
 
-                    <h3>Engineering In Digital Arts</h3>
+    <!-- Section highlighting development interests -->
+    <section class="building">
 
-                    <span>2024</span>
+        <div class="container">
+
+            <h2 class="reveal-up">What I Enjoy Building</h2>
+
+            <div class="interest-grid reveal-up">
+
+                <div class="interest-card">
+
+                    <h3>Game Systems</h3>
 
                     <p>
-                        Began my studies in Bachelor of Engineering Sciences in Digital Arts 
-                        at the University of Witwatersrand which built the foundation for my focus on software
-                        development, game design and interactive experiences.
+                        Designing mechanics, progression systems,
+                        AI behaviours and gameplay loops.
                     </p>
 
                 </div>
 
-            </div>
+                <div class="interest-card">
 
-            <div class="timeline-item left hidden">
-
-                <div class="timeline-content">
-
-                    <h3>Development Projects</h3>
-
-                    <span>2025</span>
+                    <h3>Frontend Development</h3>
 
                     <p>
-                        Created my first projects in unity including a 2D pixel-art cat game
-                         and a Sci-Fi 3D game featuring telekinetic combat, enemy AI and 
-                         progression systems while enhancing my problem-solving 
-                        skills with electronics projects and mathematics studies.
+                        Creating responsive interfaces and
+                        interactive user experiences.
                     </p>
 
                 </div>
 
-            </div>
+                <div class="interest-card">
 
-            <div class="timeline-item right hidden">
-
-                <div class="timeline-content">
-
-                    <h3>Portfolio Development</h3>
-
-                    <span>2026 / Present</span>
+                    <h3>Problem Solving</h3>
 
                     <p>
-                        Began building a professional portfolio becoming emcompassed 
-                        with frontend and UI development skills, showcasing 
-                        development and design work.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="timeline-item left hidden">
-
-                <div class="timeline-content">
-
-                    <h3>Future Plans</h3>
-
-                    <span>2027 Onwards</span>
-
-                    <p>
-                        Hoping to continue building my skills and experience in software development and problem solving 
-                        by moving into the information engineering degree upon completion of my current degree and eventually 
-                        pursuing a career in software development, game design or interactive experience development.
+                        Developing technical solutions through
+                        structured thinking and experimentation.
                     </p>
 
                 </div>
@@ -158,100 +229,68 @@
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <!-- Key strengths and competencies section -->
+    <section class="strengths">
 
-<section class="building">
+        <div class="container">
 
-    <div class="container">
+            <h2 class="reveal-up">Key Strengths</h2>
 
-        <h2 class="reveal-up">What I Enjoy Building</h2>
+            <ul class="strength-list">
 
-        <div class="interest-grid reveal-up">
+                <li class="reveal-up">Gameplay System Design</li>
 
-            <div class="interest-card">
-                <h3>Game Systems</h3>
-                <p>
-                    Designing mechanics, progression systems,
-                    AI behaviours and gameplay loops.
-                </p>
-            </div>
+                <li class="reveal-up">Object-Oriented Programming</li>
 
-            <div class="interest-card">
-                <h3>Frontend Development</h3>
-                <p>
-                    Creating responsive interfaces and
-                    interactive user experiences.
-                </p>
-            </div>
+                <li class="reveal-up">User Interface Development</li>
 
-            <div class="interest-card">
-                <h3>Problem Solving</h3>
-                <p>
-                    Developing technical solutions through
-                    structured thinking and experimentation.
-                </p>
-            </div>
+                <li class="reveal-up">AI and Rule-Based Systems</li>
+
+                <li class="reveal-up">Responsive Web Design</li>
+
+                <li class="reveal-up">Team Collaboration</li>
+
+            </ul>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
-<section class="strengths">
+    <!-- Personal interests and values section -->
+    <section class="interests">
 
-    <div class="container">
+        <div class="container">
 
-        <h2 class="reveal-up">Key Strengths</h2>
+            <h2 class="reveal-up">Beyond Development</h2>
 
-        <ul class="strength-list">
+            <p class="reveal-up">
+                Outside of development I enjoy exploring game design and discovering
+                how I can apply my skills to different types of projects through consistency and discipline. 
+                I am an avid electric guitar player and reader allowing me to enjoy learning new techniques, finding new perspectives as well as 
+                creating my own music. I also have a strong interest in emerging sciences such as virtual reality, 
+                quantum mechanics and artificial intelligence which I continuously explore in my free time.
+            </p>
 
-            <li class="reveal-up">Gameplay System Design</li>
+            <p class="reveal-up">
+                Furthermore, I am a firm believer in the power of collaboration and community in the tech industry. 
+                I enjoy connecting with other developers, sharing knowledge and learning from others' experiences. 
+                My goal is to always be learning and evolving as a developer & person while contributing to a positive 
+                and inclusive tech community where everyone can thrive and grow together.
+            </p>
 
-            <li class="reveal-up">Object-Oriented Programming</li>
+            <p class="reveal-up">
+                Lastly, I firmly believe in giving back to the community where possible. In high school, I was involved in various charity initiatives and community service projects, and I hope to continue contributing to causes that matter to me in the future to better understand myself and the various different cultures that exist out there.
+            </p>
 
-            <li class="reveal-up">User Interface Development</li>
+        </div>
 
-            <li class="reveal-up">AI and Rule-Based Systems</li>
+    </section>
 
-            <li class="reveal-up">Responsive Web Design</li>
-
-            <li class="reveal-up">Team Collaboration</li>
-
-        </ul>
-
-    </div>
-
-</section>
-<section class="interests">
-
-    <div class="container">
-
-        <h2 class="reveal-up">Beyond Development</h2>
-
-        <p class="reveal-up">
-            Outside of development I enjoy exploring game design and discovering
-            how I can apply my skills to different types of projects through consistency and discipline. 
-            I am an avid electric guitar player and reader allowing me to enjoy learning new techniques, finding new perspectives as well as 
-            creating my own music. I also have a strong interest in emerging sciences such as virtual reality, 
-            quantum mechanics and artificial intelligence which I continuously explore in my free time.
-        </p>
-        <p class="reveal-up">
-            Furthermore, I am a firm believer in the power of collaboration and community in the tech industry. 
-            I enjoy connecting with other developers, sharing knowledge and learning from others' experiences. 
-            My goal is to always be learning and evolving as a developer & person while contributing to a positive 
-            and inclusive tech community where everyone can thrive and grow together.
-        </p>
-        <p class="reveal-up">
-            Lastly, I firmly believe in giving back to the community where possible. In high school, I was involved in various charity initiatives and community service projects, and I hope to continue contributing to causes that matter to me in the future to better understand myself and the various different cultures that exist out there.
-        </p>
-
-    </div>
-
-</section>
 </main>
 
+<!-- Footer -->
 <footer>
 
     <div class="container">
@@ -262,6 +301,7 @@
 
 </footer>
 
+<!-- Navigation script -->
 <script src="js/nav.js"></script>
 
 </body>
