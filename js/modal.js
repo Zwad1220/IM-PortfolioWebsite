@@ -57,10 +57,10 @@ const projectData = {
 
     2048:{
 
-        title:"2048 Game",
+        title:"Reverse 2048 Project",
         image: "assets/images/2048-proj.png",
         description:
-        "A fully functional version of the 2048 game played by two AI algorithms that play against each other until one wins or a draw is concluded. The project was developed in C++ on codeblocks with a focus on clean code, documentation and AI implementation. The project allowed me to develop my skills in C++ programming, AI algorithm implementation, and software engineering practices while creating a functional and engaging gameplay experience.",
+        "A fully functional version of the reverse 2048 game played by two AI algorithms that play against each other until one wins or a draw is concluded. The project was developed in C++ on codeblocks with a focus on clean code, documentation and AI implementation. The project allowed me to develop my skills in C++ programming, AI algorithm implementation, and software engineering practices while creating a functional and engaging gameplay experience.",
         tech:
         "C++, Object-Oriented Programming, AI Algorithms, Clean Code, Documentation",
         features:

@@ -5,11 +5,17 @@
     --text:#1E293B;
 }
 
-body.dark-mode{
-    --bg:#111827;
-    --surface:#1f2937;
-    --text:#f3f4f6;
-    --border:#374151;
+body::before {
+  content: ''; 
+  position: fixed; 
+  inset: 0; 
+  pointer-events: none; 
+  z-index: 0;
+  
+  background-image: radial-gradient(rgba(138, 138, 188, 0.564) 1.5px, transparent 1.5px);
+  background-position: 0 0, 15px 15px;
+  background-size: 40px 60px; 
+  mask-image: radial-gradient(ellipse 80% 50% at 50% 0%, var(--bg) 40%, transparent 100%);
 }
 
 *{
@@ -146,6 +152,7 @@ nav{
 
 .hero-image{
     flex:1;
+    z-index:1;
 }
 
 .hero-image img{
@@ -305,6 +312,9 @@ nav{
     gap:4rem;
 }
 
+.about-image{
+    z-index:1;
+}
 .about-image img{
     width:350px;
     border-radius:20px;
@@ -315,6 +325,7 @@ nav{
     border-right:3px solid var(--primary);
     padding-right:6px;
     animation:blink 0.8s infinite;
+    z-index:10;
 }
 
 .timeline-heading{
@@ -505,6 +516,7 @@ nav{
 .projects-hero{
     padding:6rem 0 3rem;
     text-align:center;
+    z-index:10;
 }
 
 .projects-hero p{
@@ -671,6 +683,7 @@ nav{
 
 #contact-heading{
     font-size:3rem;
+    z-index:10;
 }
 
 .contact-header{
@@ -679,6 +692,7 @@ nav{
     padding:2rem;
     text-align:center;
     border-radius:20px 20px 0 0;
+    z-index:10;
 }
 
 .contact-hero {
