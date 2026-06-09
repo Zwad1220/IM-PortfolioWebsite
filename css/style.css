@@ -233,6 +233,7 @@ nav{
 .hero-image{
     flex:1;
     z-index:1;
+    
 }
 
 .hero-image img{
@@ -240,6 +241,7 @@ nav{
     max-width:400px;
     border-radius:50%;
     display:block;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
 }
 
 .hero-tag{
@@ -398,6 +400,7 @@ nav{
 .about-image img{
     width:350px;
     border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
 }
 
 .typing-heading{
