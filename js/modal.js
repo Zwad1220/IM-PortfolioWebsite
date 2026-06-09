@@ -67,6 +67,21 @@ const projectData = {
         "Complete rule enforcement and game state management, 2 AI Algorithms, intuitive design, and professional software engineering practices."
     },
 
+    "assembly-lock":{
+
+        title:"Assembly Lock System",
+        image: "assets/images/assembly-lock-proj.png",
+
+        description:
+        "A secure lock system designed and coded using assembly language, featuring a combination of hardware and software components to ensure robust security. The project involved designing the mechanical aspects of the lock, implementing the electronic components, and programming the lock's functionality using assembly language; including a warning and alarm state for the system when incorrect inputs are detected. The system was designed to be secure against common attack methods and included features such as a secure locking mechanism and hardware integration. The project provided a comprehensive learning experience in assembly programming, hardware design, and security principles.",
+
+        tech:
+        "Assembly, Documentation, Electrical Engineering",
+
+        features:
+        "Secure locking mechanism, hardware integration, software components, and robust security features."
+    },
+
     grappling:{
 
         title:"Grappling Memory Game",
@@ -91,7 +106,7 @@ const projectData = {
         "The Crypto box is an advanced security system developed as a university group project in my second year using various engineering disciplines including electronics, mechanics and software development to create a robust and cohesive system. My role in the project involved designing and implementing the electronic components, creating a flex sensor subsystem, and integrating the various subsystems to ensure seamless operation. The project was a comprehensive learning experience that allowed me to apply my knowledge of electronics, and system design to create a functional and innovative security solution.",
 
         tech:
-        "Electronics, Information Technology, Latex, Inkscape",
+        "Electronics, System Integration, Latex, Inkscape",
 
         features:
         "Responsive design, Cyber security features, Interactive elements with reusable and repurposable electronic components."
