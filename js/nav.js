@@ -5,7 +5,13 @@ nav.innerHTML = `
     <div class="container nav-wrapper">
 
         <a href="index.html" class="logo">
+
             ZK
+
+            <span class="orbit">
+                <span class="orbit-dot"></span>
+            </span>
+
         </a>
 
         <button class="hamburger" id="hamburger">
