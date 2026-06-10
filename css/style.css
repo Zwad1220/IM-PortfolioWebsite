@@ -104,6 +104,7 @@ h3{
     height:60px;
 }
 
+/* Spinning animation */
 .orbit{
     position:absolute;
 
@@ -160,6 +161,7 @@ h3{
     transform:translateY(0);
 }
 
+/* navigation */
 nav{
     position:relative;
     z-index:1000;
@@ -217,6 +219,7 @@ nav{
     color:var(--text);
 }
 
+/* hero section */
 .hero{
     min-height:80vh;
     display:flex;
@@ -272,6 +275,7 @@ nav{
     gap:1rem;
 }
 
+/* primary button */
 .btn-primary{
     background:var(--primary);
     color:var(--bg);
@@ -289,6 +293,7 @@ nav{
     box-shadow:0 12px 24px rgba(27, 0, 116, 0.545);
 }
 
+/* secondary button */
 .btn-secondary{
     border:2px solid var(--primary);
     color:var(--primary);
@@ -496,6 +501,7 @@ nav{
     transform:translateY(-3px);
 }
 
+/* timeline reveals */
 .timeline{
     position:relative;
     margin-top:4rem;
@@ -679,6 +685,7 @@ nav{
     background:#f2f2f2;
 }
 
+/* modal styling */
 .modal {
     position: fixed;
     inset: 0;
@@ -809,6 +816,7 @@ nav{
     border-right: 1px solid #ddd;
 }
 
+/* contact form styling */
 .contact-form-wrapper {
     padding: 2rem;
     border-right: var(--primary) 4px solid;
@@ -921,6 +929,7 @@ footer{
     display:none;
 }
 
+/* mobile responsive styles */
 @media(max-width:768px){
 
     .hamburger{

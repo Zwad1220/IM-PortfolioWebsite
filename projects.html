@@ -3,13 +3,17 @@
 
 <head>
 
+    <!-- Character encoding and responsive viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Browser tab title -->
     <title>Projects | Ziyad Khan</title>
 
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- JavaScript files -->
     <script src="js/nav.js" defer></script>
     <script src="js/typing.js" defer></script>
     <script src="js/scroll-reveal.js" defer></script>
@@ -20,14 +24,17 @@
 
 <body>
 
+    <!-- Navigation injected dynamically using JavaScript -->
     <div id="navbar"></div>
 
     <main>
 
+        <!-- Hero section introducing the projects page -->
         <section class="projects-hero">
 
             <div class="container">
 
+                <!-- Animated page heading -->
                 <h1 class="typing-heading" id="projects-heading"
                     data-text="My Projects">
                 </h1>
@@ -42,12 +49,14 @@
 
         </section>
 
+        <!-- Project filtering controls -->
         <section class="project-filter-section">
 
             <div class="container">
 
                 <div class="project-filters">
 
+                    <!-- Filter buttons used by filter.js -->
                     <button class="filter-btn active"
                             data-filter="all">
                         All
@@ -74,12 +83,14 @@
 
         </section>
 
+        <!-- Main projects grid -->
         <section class="projects-grid-section">
 
             <div class="container">
 
                 <div class="projects-grid">
 
+                    <!-- Morabaraba project -->
                     <article class="project-card reveal-up"
                              data-category="web">
 
@@ -97,6 +108,7 @@
                                 and complete rule enforcement.
                             </p>
 
+                            <!-- Technologies used -->
                             <div class="project-tags">
 
                                 <span>Unity</span>
@@ -109,6 +121,7 @@
 
                             </div>
 
+                            <!-- Opens project modal -->
                             <button
                                 class="learn-more"
                                 data-project="morabaraba">
@@ -119,6 +132,7 @@
 
                     </article>
 
+                    <!-- Sci-Fi Thriller Game project -->
                     <article class="project-card reveal-up"
                              data-category="unity">
 
@@ -143,6 +157,7 @@
                                 <span>Game Design</span>
                                 <span>AI</span>
                                 <span>Collaboration</span>
+
                             </div>
 
                             <button
@@ -155,6 +170,7 @@
 
                     </article>
 
+                    <!-- Reverse 2048 project -->
                     <article class="project-card reveal-up"
                              data-category="design">
 
@@ -166,8 +182,8 @@
                             <h2>Reverse 2048</h2>
 
                             <p>
-                                A fully functional version of the reverse 2048 game played by two AI algorithms, 
-                                developed in C++ on codeblocks with a focus on clean code, documentation and AI implementation.
+                                A fully functional version of the reverse 2048 game played by two AI algorithms,
+                                developed in C++ on CodeBlocks with a focus on clean code, documentation and AI implementation.
                             </p>
 
                             <div class="project-tags">
@@ -189,6 +205,7 @@
 
                     </article>
 
+                    <!-- Assembly lock system project -->
                     <article class="project-card reveal-up"
                              data-category="design">
 
@@ -200,7 +217,7 @@
                             <h2>Assembly Lock System</h2>
 
                             <p>
-                                A secure lock system designed using assembly language, featuring a 
+                                A secure lock system designed using assembly language, featuring a
                                 combination of hardware and software components to ensure robust security.
                             </p>
 
@@ -222,6 +239,7 @@
 
                     </article>
 
+                    <!-- Grappling Memory Game project -->
                     <article class="project-card reveal-up"
                              data-category="unity">
 
@@ -234,7 +252,7 @@
 
                             <p>
                                 An interactive project focused
-                                on player movement, combined with 
+                                on player movement, combined with
                                 cognitive tests and engaging level
                                 design.
                             </p>
@@ -256,6 +274,8 @@
                         </div>
 
                     </article>
+
+                    <!-- Pixel-art Cat Game project -->
                     <article class="project-card reveal-up"
                              data-category="unity">
 
@@ -269,7 +289,7 @@
                             <p>
                                 A 2D adventure exploration experience
                                 featuring puzzles,
-                                various dialogues and a pixel-art aesthetic.,
+                                various dialogues and a pixel-art aesthetic.
                             </p>
 
                             <div class="project-tags">
@@ -289,7 +309,10 @@
                             </button>
 
                         </div>
+
                     </article>
+
+                    <!-- Crypto Box engineering project -->
                     <article class="project-card reveal-up"
                              data-category="design">
 
@@ -333,42 +356,48 @@
 
     </main>
 
-<div class="modal" id="project-modal">
-    <div class="modal-content">
+    <!-- Reusable project information modal -->
+    <div class="modal" id="project-modal">
 
-        <button class="close-modal">&times;</button>
+        <div class="modal-content">
 
-        <img id="modal-image" src="" alt="Project Image">
+            <!-- Closes modal window -->
+            <button class="close-modal">&times;</button>
 
-        <div class="modal-body">
+            <!-- Project image populated by JavaScript -->
+            <img id="modal-image" src="" alt="Project Image">
 
-            <h2 id="modal-title"></h2>
+            <div class="modal-body">
 
-            <p id="modal-description"></p>
+                <!-- Project information populated dynamically -->
+                <h2 id="modal-title"></h2>
 
-            <h3>Technologies</h3>
-            <p id="modal-tech"></p>
+                <p id="modal-description"></p>
 
-            <h3>Key Features</h3>
-            <p id="modal-features"></p>
+                <h3>Technologies</h3>
+                <p id="modal-tech"></p>
+
+                <h3>Key Features</h3>
+                <p id="modal-features"></p>
+
+            </div>
 
         </div>
 
     </div>
-</div>
 
-<!-- Footer section -->
-<footer>
+    <!-- Footer section -->
+    <footer>
 
-    <div class="container">
+        <div class="container">
 
-        <p>
-            © 2026 Ziyad Khan. All rights reserved.
-        </p>
+            <p>
+                © 2026 Ziyad Khan. All rights reserved.
+            </p>
 
-    </div>
+        </div>
 
-</footer>
+    </footer>
 
 </body>
 
