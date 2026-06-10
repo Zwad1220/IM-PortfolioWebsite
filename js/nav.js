@@ -1,11 +1,10 @@
 // Find the navbar
 const nav = document.getElementById("navbar");
 
-// HTML for all pages
+// Navigation HTML for all pages
 nav.innerHTML = `
 <nav class="main-nav">
     <div class="container nav-wrapper">
-        // Logo formatting
         <a href="index.html" class="logo">
 
             ZK
@@ -16,12 +15,10 @@ nav.innerHTML = `
 
         </a>
 
-        // Hamburger mobile display
         <button class="hamburger" id="hamburger">
             ☰
         </button>
 
-        // List of navigation pages
         <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
