@@ -1,3 +1,4 @@
+// Find all modal cards and their details
 const modal = document.getElementById("project-modal");
 const title = document.getElementById("modal-title");
 const description = document.getElementById("modal-description");
@@ -5,11 +6,13 @@ const modalImage = document.getElementById("modal-image");
 const tech = document.getElementById("modal-tech");
 const features = document.getElementById("modal-features");
 
-const closeBtn =
-document.querySelector(".close-modal");
+// Button to close modal
+const closeBtn = document.querySelector(".close-modal");
 
+// Data to be displayed in the respective modals
 const projectData = {
 
+    // Morabaraba modal
     morabaraba:{
 
         title:"Morabaraba",
@@ -25,6 +28,7 @@ const projectData = {
         "Local multiplayer, three AI difficulties, complete rule enforcement and game state management, Undo / Redo functionality."
     },
 
+    // Sci-Fi game modal
     horror:{
 
         title:"Sci-Fi Thriller Game",
@@ -40,6 +44,7 @@ const projectData = {
         "Telekinesis, boomerang scythe, katana combat, boss fights, upgrades and enemy AI."
     },
 
+    // Pixel art cat game modal
     "pixel-cat":{
 
         title:"Pixel-art Cat Game",
@@ -55,6 +60,7 @@ const projectData = {
         "Puzzles, cutscenes, dialogues, pixel-art aesthetic, character movement, and environmental storytelling."
     },
 
+    // Reverse 2048 project modal
     2048:{
 
         title:"Reverse 2048 Project",
@@ -67,6 +73,7 @@ const projectData = {
         "Complete rule enforcement and game state management, 2 AI Algorithms, intuitive design, and professional software engineering practices."
     },
 
+    // Assembly lock-system modal
     "assembly-lock":{
 
         title:"Assembly Lock System",
@@ -82,6 +89,7 @@ const projectData = {
         "Secure locking mechanism, hardware integration, software components, and robust security features."
     },
 
+    // Grappling movement game modal
     grappling:{
 
         title:"Grappling Memory Game",
@@ -97,6 +105,7 @@ const projectData = {
         "Movement systems, player progression, grappling mechanics, shooting mechanics, player feedback and environmental challenges."
     },
 
+    // Crypto-box security system modal
     "crypto-box":{
 
         title:"The Crypto Box",
@@ -113,9 +122,8 @@ const projectData = {
     }
 };
 
-document
-.querySelectorAll(".learn-more")
-.forEach(button=>{
+// Learn more modal expansion button
+document.querySelectorAll(".learn-more").forEach(button=>{
 
     button.addEventListener("click",()=>{
 
@@ -123,12 +131,14 @@ document
         projectData[
             button.dataset.project
         ];
-
+        
+        // Display each detail
         title.textContent = project.title;
         description.textContent = project.description;
         tech.textContent = project.tech;
         features.textContent = project.features;
 
+        // Include title and image of the project
         modalImage.src = project.image;
         modalImage.alt = project.title;
 
@@ -137,6 +147,7 @@ document
 
 });
 
+// Make the modal close
 closeBtn.addEventListener("click",()=>{
 
     modal.classList.remove("show");

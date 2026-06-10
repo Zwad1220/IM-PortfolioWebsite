@@ -1,6 +1,8 @@
+// Find all elements to be revealed
 const revealElements =
 document.querySelectorAll(".reveal-up");
 
+// Set the effect active
 const revealObserver =
 new IntersectionObserver((entries)=>{
 
@@ -15,6 +17,7 @@ new IntersectionObserver((entries)=>{
     });
 
 },{
+    // Time taken to reveal
     threshold:0.15
 });
 

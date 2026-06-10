@@ -1,6 +1,8 @@
+// Find all timeline cards
 const timelineItems =
 document.querySelectorAll(".timeline-item");
 
+// Reveal the cards outwards as the user scrolls
 const timelineObserver =
 new IntersectionObserver((entries)=>{
 
@@ -15,7 +17,7 @@ new IntersectionObserver((entries)=>{
     });
 
 },{
-    threshold:0.2
+    threshold:0.2 //Reveal time
 });
 
 timelineItems.forEach(item=>{

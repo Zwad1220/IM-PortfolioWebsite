@@ -1,9 +1,12 @@
+// Find all filter buttons
 const buttons =
 document.querySelectorAll(".filter-btn");
 
+// Find all project cards
 const cards =
 document.querySelectorAll(".project-card");
 
+// Determine which projects should be displayed
 buttons.forEach(button=>{
 
     button.addEventListener("click",()=>{
@@ -17,6 +20,7 @@ buttons.forEach(button=>{
         const filter =
         button.dataset.filter;
 
+        // Switch the correct cards active
         cards.forEach(card=>{
 
             if(
